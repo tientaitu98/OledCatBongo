@@ -1,5 +1,6 @@
 #include "SimpleSerial.h"
 
+
 char com_port[] = "\\\\.\\COM3";
 DWORD COM_BAUD_RATE = CBR_9600;
 SimpleSerial Serial(com_port, COM_BAUD_RATE);
